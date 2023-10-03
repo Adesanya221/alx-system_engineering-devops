@@ -1,16 +1,2 @@
 #!/bin/bash
-
-# Initialize a counter for directories
-count=0
-
-# Use a for loop to iterate over directories and subdirectories
-for dir in $(find . -type d); do
-    # Exclude current directory (.) and parent directory (..)
-    if [ "$dir" != "." ] && [ "$dir" != ".." ]; then
-        # Increment the counter
-        count=$((count + 1))
-    fi
-done
-
-# Print the total count of directories
-echo "Total directories (including hidden): $count"
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
